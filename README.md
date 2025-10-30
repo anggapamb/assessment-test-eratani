@@ -39,6 +39,7 @@ date, product_id, product_name, initial_stock, qty_sold
 
 #### Detail:
 
+* Format date harus `yyyy-MM-dd`.
 * Membaca data menggunakan `ContentResolver` melalui pemilih file Android.
 * Jika nilai `initial_stock` berbeda di setiap baris, sistem akan **mengambil nilai terbesar** sebagai stok awal produk tersebut.
 
